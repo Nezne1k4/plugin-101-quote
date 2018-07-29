@@ -1,0 +1,36 @@
+<idea-plugin>
+  <id>com.quoine.mobile.plugin.quote101</id>
+  <name>Quote - the 101 plugin</name>
+  <version>1.0</version>
+  <vendor email="anh.tran@quoine.com" url="http://www.quoine.com">Anh.Tran @ Quoine</vendor>
+
+  <description><![CDATA[
+      Enter short description for your plugin here.<br>
+      <em>most HTML tags may be used</em>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+    <project-components>
+        <component>
+            <implementation-class>com.plugin101.quote.Quote101ComponentImpl</implementation-class>
+        </component>
+    </project-components>
+</idea-plugin>
