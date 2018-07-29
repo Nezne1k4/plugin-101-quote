@@ -28,9 +28,9 @@
     <!-- Add your actions here -->
   </actions>
 
-    <application-components>
+    <project-components>
         <component>
             <implementation-class>com.plugin101.quote.Quote101ComponentImpl</implementation-class>
         </component>
-    </application-components>
+    </project-components>
 </idea-plugin>
